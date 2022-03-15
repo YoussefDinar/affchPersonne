@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    PA* m = new PA("p1", "p1", 19, 283, 20, "fr");
+    PA* m = new PA("m1", "p1", 20, 283, 21, "fr");
     m->afficher();
    
 
