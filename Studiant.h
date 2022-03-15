@@ -7,7 +7,7 @@ public:
 	Etudiant(string n, string p, int a, int cne);
 	 void afficher() const override;
 	
-private: 
+protected: 
 	int cne; //96+8=104
 
 
