@@ -8,6 +8,6 @@ Professeur::Professeur(string n, string p, int a, int mat)
 
 void Professeur::afficher() const
 {
-	this->Personne::afficher();
+	//this->Personne::afficher();
 	std::cout << "matricule: " << this->matricule << std::endl;
 }
