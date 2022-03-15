@@ -5,38 +5,16 @@
 #include"Professeur.h"
 #include"Studiant.h"
 #include"Personne.h"
-
-
-
 using namespace std;
 
 
 
-/*class A
-{
-public:
-	A();
-private:
-	
-	string j;
-	int i;
-	//string jk;
-};
-
-A::A()
-{
-}*/
 
 int main()
 {
-
-	//cout << "4 OCTETS" << endl;
-	/*A a;
-	std::cout << sizeof(a) << endl; //92+4=96
-	*/
-	Personne *p2= new Personne("p1", "p1", 19);
-	//Personne p1("pa1", "pa1", 25);
-	cout << sizeof(p2) << endl; //92+4=96
+    PA* m = new PA("p1", "p1", 19, 283, 20, "fr");
+    m->afficher();
+   
 
 }
 
