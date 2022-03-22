@@ -6,10 +6,11 @@ PA::PA(string n, string p, int a, int cne, int matricule, string thema) :
 	this->thematique = thema;
 }
 
-void PA::afficher() const
-{
-	 this->Professeur::afficher();
-        std::cout << "cne: " << this->Etudiant::cne << std::endl;
+ void PA::afficher() const
+    {
+        this->Personne::afficher();
+        this->Etudiant::afficher();
+        this->Professeur::afficher();
+       
         std::cout << "thematique: " << this->thematique << std::endl;
-   
-}
+    }
