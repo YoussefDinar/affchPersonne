@@ -6,8 +6,15 @@ Professeur::Professeur(string n, string p, int a, int mat)
 	this->matricule = mat;
 }
 
+
 void Professeur::afficher() const
 {
-	this->Personne::afficher();
-	std::cout << "matricule: " << this->matricule << std::endl;
+    Professeur* p;
+
+
+    if (typeid(this).name() == typeid(p).name()) {
+        this->Personne::afficher();
+    }
+    else
+    std::cout << "matricule: " << this->matricule << std::endl;
 }
